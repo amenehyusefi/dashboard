@@ -320,7 +320,7 @@ ul li{
   margin: 0;
   padding: 0;
 }
-.pointer{
+.cursorp{
   cursor: pointer;
 }
 .b{
@@ -334,7 +334,7 @@ ul li{
 }
 /*-----------------------------------------------------------------------------------------------------------------*/
 
-.nav-list{
+.d-main .nav-list{
   width: 250px;
   color: #8A8B8D;
   float: right;
@@ -355,6 +355,7 @@ ul li{
 }
 .l-menu li:hover{
   background-color: #EDEEF2;
+  /*border-radius:20%;*/
 }
 .d-list span{
   vertical-align: middle;
@@ -394,16 +395,27 @@ ul li{
   /*box-shadow: inset 0px 0px 30px 0 hsla(0,0%,0%,.25);*/
   box-shadow: inset -7px 0 25px -7px rgba(0,0,0,0.4);
 }
+.h-content-right{
+  float: right;
+  margin-right: 10px;
+}
 .h-content-title{
   padding: 20px;
-  margin-right: 10px;
+
   width: 60px;
-  float: right;
 }
 .h-content-left{
   float: left;
   padding: 15px 0 0 40px;
   /*padding-right: 40px;*/
+}
+.d-menu{
+  margin-right: 20px;
+}
+.s-menu{
+  width:32px;
+  height:32px;
+  background: url("../img/menu.png") repeat 0 0;
 }
 .l-lng{
   float: left;
@@ -412,7 +424,6 @@ ul li{
   width:20px;
   height:20px;
   background-image: url("../img/icon20.png");
-  display: inline-block;
   cursor: pointer;
   vertical-align: bottom;
 }
@@ -489,4 +500,21 @@ s-l-lng:hover{
 .btn-search-ico{
   top:26%;
   right:26%;
+}
+.d-menu {
+  display:none;
+}
+.d-statistics{
+  border: 1px solid green;
+  width: 22%;
+  display: inline-block;
+}
+.d-r-margin-1p{
+  margin-right: 1.5%;
+}
+.d-r-margin-2p{
+  margin-right: 3%;
+}
+.d-l-margin-2p{
+  margin-left: 3%;
 }

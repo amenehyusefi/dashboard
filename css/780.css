@@ -1,0 +1,27 @@
+@media (max-width: 780px) {
+  .nav-list{
+    display: none;
+  }
+  .d-content{
+    width: 100%;
+  }
+  .mobileMode .nav-list{
+    display: inline-block;
+    width: 65px;
+  }
+  .d-menu {
+    display:inline-block;
+  }
+  .mobileMode .d-content{
+    width: calc(100% - 65px);
+  }
+  .mobileMode .d-h-list{
+    display: none;
+  }
+  .mobileMode .d-list .l-menu-title{
+    display: none;
+  }
+  .mobileMode .r-margin2{
+    margin-right: 10px;
+  }
+}
