@@ -1,0 +1,49 @@
+@media (max-width: 1024px) {
+  .nav-list{
+    display: none;
+  }
+  .d-content{
+    width: 100%;
+  }
+  .mobileMode .nav-list{
+    display: inline-block;
+    width: 65px;
+  }
+  .d-menu {
+    display:inline-block;
+  }
+  .mobileMode .d-content{
+    width: calc(100% - 65px);
+  }
+  .mobileMode .d-h-list{
+    display: none;
+  }
+  .mobileMode .d-list .l-menu-title{
+    display: none;
+  }
+  .mobileMode .r-margin2{
+    margin-right: 10px;
+  }
+  .mobileMode .l-menu{
+    margin-top: 0;
+  }
+  .d-statistics{
+    width: 40%;
+    padding: 1%;
+    height: 120px;
+
+  }
+  .height100{
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .d-statistics-block{
+    width: 100%;
+    border: 1px solid rebeccapurple;
+    display: inline-block;
+  }
+  .d-s-d-logo{
+    width: 13%;
+    padding-bottom: 13%;
+  }
+}
