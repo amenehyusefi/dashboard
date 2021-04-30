@@ -1,6 +1,30 @@
 @media (max-width: 634px) {
+
   .d-statistics{
-    width: 94%;
-    margin: auto 4% auto 3%;
+    width: 60%;
+    padding-bottom: 20%;
+  }
+  .d-statistics-left{
+    padding-left:0;
+  }
+  .h-content-left-search{
+    margin-top: 40px;
+    float: none;
+  }
+  .search-data{
+    width: 300px;
+  }
+  .search-data .line{
+    width: 86%;
+  }
+  .h-content-left{
+    padding-left: 30px;
+  }
+  .d-s-logo{
+    width: 17%;
+    padding-bottom: 17%;
+  }
+  .d-s-desc{
+    /*top: 26%;*/
   }
 }
